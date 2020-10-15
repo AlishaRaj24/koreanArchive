@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap" rel="stylesheet">
+
+
+    <title>KOREAN ARCHIVES</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" style="color:palevioletred; font-family:'Pacifico', cursive; ">Korean
+            Archive!!!!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="favourite.html">Favorite</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">IGTV video</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Reels</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        BTS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Jungkook </a>
+                        <a class="dropdown-item" href="#">V</a>
+                        <a class="dropdown-item" href="#">Jimin</a>
+                        <a class="dropdown-item" href="#">RM</a>
+                        <a class="dropdown-item" href="#">J-Hope</a>
+                        <a class="dropdown-item" href="#">Suga</a>
+                        <a class="dropdown-item" href="#">Jin</a>
+
+                    </div>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+            <div class="mx-2">
+                <button class="btn btn-danger" data-toggle="modal" data-target="#loginModal">Login</button>
+                <button class="btn btn-danger" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+            </div>
+
+        </div>
+    </nav>
+    <br>
+
+
+    <!-- LogIn Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login to kArchive</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Log In</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get a kArchive Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cexampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="cexampleInputPassword1">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Create Account</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>AIGOOOOOO!</strong> Don't forget to stream DYNAMITE!
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="alert alert-danger" role="alert">
+        K-Dramas are good for health!!!!
+    </div>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Kdramas</a></li>
+            <li class="breadcrumb-item"><a href="#">Cdramas</a></li>
+            <li class="breadcrumb-item active" aria-current="page">BTS in the SOOP &nbsp; <span
+                    class="badge badge-pill badge-primary">BigHit</span></li>
+        </ol>
+    </nav>
+
+
+    <div class="card">
+        <div class="card-header">
+            Favourite Quote
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                <p style="font-family: 'Great Vibes', cursive;
+                font-family: 'Satisfy', cursive; color: purple;">You shouldn’t be embarrassed about being sad.</p>
+                <footer class="blockquote-footer">It’s Okay to Not Be Okay </footer>
+            </blockquote>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- First slide -->
+                <div class="carousel-item active">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="https://6.viki.io/image/e3789bcafdf74b858b71aac40f3d27ec.jpeg?s=900x600&e=t"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-family: 'Playfair Display', serif;">Lee Min Ho</h5>
+                                <p class="card-text">Boys over flowers <br> The heirs <br> The King:Eternal Monarch</p>
+                                <a href="#" class="btn btn-primary">Find more...</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://6.viki.io/image/e42cc9c206094eab8635f0f6cef7dd2b.jpeg?s=900x600&e=t"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-family: 'Playfair Display', serif;">Kim Woo Bin</h5>
+                                <p class="card-text">School 2013 <br> The Heirs <br> Uncontrollably Fond</p>
+                                <a href="#" class="btn btn-primary">Find more...</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://pbs.twimg.com/media/DqIy5-kX0AAtHpN.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-family: 'Playfair Display', serif;">Park Bo Gum</h5>
+                                <p class="card-text">Reply 1988 <br> Love in the moonlight <br> Record of youth</p>
+                                <a href="#" class="btn btn-primary">Find more...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- second slide -->
+                <div class="carousel-item ">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="https://talentrecap.com/wp-content/uploads/2020/08/Jungkook-BTS-BTS-Army.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-family: 'Playfair Display', serif;">Jeon Jungkook
+                                </h5>
+                                <p class="card-text" style="color: purple;">SHIVANGI's bias.......<br> Jungkookie</p>
+                                <a href="#" class="btn btn-primary">Find more...</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://kprofiles.com/wp-content/uploads/2016/09/RM-900x600.jpeg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-family: 'Playfair Display', serif;">Kim Namjoon</h5>
+                                <p class="card-text" style="color: peru">ALISHA's bias.......<br> Namjoonie</p>
+                                <a href="#" class="btn btn-primary">Find more...</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://pbs.twimg.com/media/D9nf__HUYAAld9u.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-family: 'Playfair Display', serif;">Kim Taehyung</h5>
+                                <p class="card-text" style="color: brown">MOTU's bias........<br>Tae Tae</p>
+                                <a href="#" class="btn btn-primary">Find more...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <br>
+
+    <button type="button" class="btn btn-outline-dark btn-lg btn-block">Click here to watch.... <br>!! IT'S OKAY TO
+        BE NOT OKAY !!</button>
+
+    <div class="container">
+
+
+        <div class="container my-4">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">BTS</strong>
+                            <h4 class="mb-0">BTS- A worldwide sensation</h4>
+                            <div class="mb-1 text-muted">Debut-June 13,2013 </div>
+                            <p class="card-text mb-auto">BTS is one of the biggest music sensations in history.</p>
+                            <a href="https://highschool.latimes.com/hs-insider/bts-a-worldwide-sensation/"
+                                class="stretched-link">Continue reading</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="200" height="250" src="bts1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success">Blackpink</strong>
+                            <h4 class="mb-0">Learn about Blackpink</h4>
+                            <div class="mb-1 text-muted">Debut-Aug 8,2016 </div>
+                            <p class="mb-auto">BLACKPINK: 10 Things To Know About The World’s Hottest Girl Group</p>
+                            <a href="https://www.udiscovermusic.com/stories/blackpink-things-you-need-to-know/"
+                                class="stretched-link">Continue reading</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="200" height="250" src="blackpink.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">EXO</strong>
+                            <h4 class="mb-0">Learn about EXO</h4>
+                            <div class="mb-1 text-muted">Debut- April 8, 2012</div>
+                            <p class="card-text mb-auto">If he weren’t an artist, Suho would want to be a teacher.</p>
+                            <a href="https://www.teenvogue.com/story/k-pop-stars-exo-reflect-career-journey-teen-vogue-interview"
+                                class="stretched-link">Continue reading</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="200" height="250" src="exo.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success">GOT7</strong>
+                            <h4 class="mb-0">Learn about GOT7</h4>
+                            <div class="mb-1 text-muted">Debut-Jan 16, 2014</div>
+                            <p class="mb-auto"> Jackson says he's wild and sexy but in reality he's just dorky and
+                                funny.</p>
+                            <a href="https://aminoapps.com/c/got7igot7/page/item/interesting-facts-about-got7/g0oq_wPeFKInPo0mWQNp2Yvd4kgxkw7r5j"
+                                class="stretched-link">Continue reading</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="200" height="250" src="got7.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <br>
+
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2020-lifetime kArchive, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
+    <br>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
